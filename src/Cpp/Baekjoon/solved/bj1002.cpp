@@ -20,7 +20,7 @@ int numberOfContact(int* p1, int* p2) {
 	} else {
 		return 0;
 	}
-	return -100;
+	return -101;
 }
 
 int main(void) {
