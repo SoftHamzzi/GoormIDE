@@ -2,8 +2,6 @@
 
 using namespace std;
 
-
-
 int main(void) {
 	int m,n; cin>>m>>n;
 	int min=-1;
