@@ -14,6 +14,7 @@ int main(void) {
 	for(int i=0;i<t;i++) {
 		cin>>s>>e;
 		d = e-s;
+		cnt=0;
 		
 		if(d<4) {
 			cout<<d<<endl;
@@ -38,7 +39,6 @@ int main(void) {
 				j--;
 			}
 		}
-		
 		cout<<cnt<<endl;
 	}
 }
