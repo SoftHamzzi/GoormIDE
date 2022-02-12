@@ -26,7 +26,7 @@ int main(void) {
 	
 	// min[0]에서 i가 1이면 낱개 가격, 2면 패키지 가성비
 	if(min[0]==1) { // 낱개인 경우
-		total += m*price[min[0]][min[1]];
+		total += n*price[min[0]][min[1]];
 		// 가장 싼것이 낱개인 경우 모두 사버리고 끝냄
 	}
 	else if(min[0]==2) { // 패키지인 경우
