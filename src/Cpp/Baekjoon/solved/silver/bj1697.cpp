@@ -5,7 +5,7 @@ using namespace std;
 
 int main(void) {
 	queue<int> q;
-	int check[200001][2]; // [0]은 visited 역할, [1]은 count의 역할.
+	int check[200001][2]; // [0]은 visited 역할, [1]은 count의 역할-
 	
 	int n1,n2; cin>>n1>>n2;
 	check[n1][1] = 0;
